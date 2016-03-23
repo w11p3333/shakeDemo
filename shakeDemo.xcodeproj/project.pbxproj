@@ -14,6 +14,8 @@
 		B22CC4B61CA2326F00BBDB14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22CC4B41CA2326F00BBDB14 /* LaunchScreen.storyboard */; };
 		B22CC4C11CA2326F00BBDB14 /* shakeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22CC4C01CA2326F00BBDB14 /* shakeDemoTests.swift */; };
 		B22CC4CC1CA2327000BBDB14 /* shakeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22CC4CB1CA2327000BBDB14 /* shakeDemoUITests.swift */; };
+		B22CC4DC1CA2329E00BBDB14 /* rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B22CC4DA1CA2329E00BBDB14 /* rock.mp3 */; };
+		B22CC4DD1CA2329E00BBDB14 /* rock_end.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B22CC4DB1CA2329E00BBDB14 /* rock_end.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B22CC4C71CA2327000BBDB14 /* shakeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shakeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22CC4CB1CA2327000BBDB14 /* shakeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeDemoUITests.swift; sourceTree = "<group>"; };
 		B22CC4CD1CA2327000BBDB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22CC4DA1CA2329E00BBDB14 /* rock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rock.mp3; sourceTree = "<group>"; };
+		B22CC4DB1CA2329E00BBDB14 /* rock_end.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rock_end.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		B22CC4AA1CA2326F00BBDB14 /* shakeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B22CC4D91CA2329E00BBDB14 /* MP3 */,
 				B22CC4AB1CA2326F00BBDB14 /* AppDelegate.swift */,
 				B22CC4AD1CA2326F00BBDB14 /* ViewController.swift */,
 				B22CC4AF1CA2326F00BBDB14 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				B22CC4CD1CA2327000BBDB14 /* Info.plist */,
 			);
 			path = shakeDemoUITests;
+			sourceTree = "<group>";
+		};
+		B22CC4D91CA2329E00BBDB14 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				B22CC4DA1CA2329E00BBDB14 /* rock.mp3 */,
+				B22CC4DB1CA2329E00BBDB14 /* rock_end.mp3 */,
+			);
+			path = MP3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B22CC4B61CA2326F00BBDB14 /* LaunchScreen.storyboard in Resources */,
+				B22CC4DC1CA2329E00BBDB14 /* rock.mp3 in Resources */,
 				B22CC4B31CA2326F00BBDB14 /* Assets.xcassets in Resources */,
 				B22CC4B11CA2326F00BBDB14 /* Main.storyboard in Resources */,
+				B22CC4DD1CA2329E00BBDB14 /* rock_end.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
